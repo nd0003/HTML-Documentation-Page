@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <title>HTML Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<nav id="navbar">
+  <header>
+    <h2><strong>&lt;html>&nbsp;Documentation&nbsp;</strong></h2>
+  </header>
+  <div id="nav">
+    <a href="#Introduction_To_HTML" class="nav-link">Introduction To HTML</a>
+    <br>
+    <a href="#What_You_Should_Already_Know" class="nav-link">What You Should Already Know</a>
+    <br>
+    <a href="#Text_Editors" class="nav-link">Text Editors</a>
+    <br>
+    <a href="#HTML_Headings" class="nav-link">HTML Headings</a>
+    <br>
+    <a href="#HTML_Hyperlinks" class="nav-link">HTML Hyperlinks</a>
+    <br>
+    <a href="#Basic_HTML_Examples" class="nav-link">Basic HTML Examples</a>
+    <br>
+    <a href="#Classes_And_IDs" class="nav-link">Classes and IDs</a>
+    <br>
+    <a href="#Further_Learning" class="nav-link">Further Learning</a>
+  </div>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction_To_HTML">
+    <header id="main-headers">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h2>Introduction To HTML</h2>
+    </header>
+    <article>
+      <p>
+        HTML is the language that every website on the internet is written in (including this one). HTML stands for HyperT ext Markup language and was created by a
+        group named <a href="https://en.wikipedia.org/wiki/WHATWG">WHATWG</a> in 1993. HTML on its own is not very useful however, as
+        <a href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets</a> (CSS) needs to be applied in order for the website to look nice. While CSS is
+        important, we will mainly be focusing on HTML here.
+        <br>
+        Similar to all <a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language">Standard Generalised Markup Languages</a> (SGMLs), HTML uses
+        opening tags (&lt;tag>) and closing tags (&lt;/tag>). A commonly used tag in HTML is the &lt;p> tag. This tag is used to display text on a website. Below is an
+        example of how the &lt;p> tag is used in HTML.
+        <br>
+        <code>
+          &lt;p>This is an example of an HTML paragraph.&lt;/p>
+        </code>
+        <br>
+        When a website's code has been written and the website is ready to go on the internet, the HTML and CSS are published to a web-host. This means that the code
+        gets sent to the URL and when you visit the website you will be able to see the content of it, as the browser has processed the code for you.
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="What_You_Should_Already_Know">
+    <header id="main-headers">
+      <h2>What You Should Already Know</h2>
+    </header>
+    <article>
+      <p>
+        This guide expects that you already know/have the following:
+      <ul>
+        <li>How the internet and World Wide Web (WWW) works (If you are planning on publishing your website).</li>
+        <li>Basic experience with computers.</li>
+        <li>Time, as mastering HTML will take a lot of it.</li>
+      </ul>
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="Text_Editors">
+    <header id="main-headers">
+      <h2>Text Editors</h2>
+    </header>
+    <article>
+      <p>
+        HTML is written in a software called a text editor. Most computers have built-in text editors, but there are more advanced text editors used by web developers
+        to make things easier for them. When practicing HTML for the first time, it is recommended to use a basic text editor like Notepad on Windows, or TextEdit
+        for MacOS (Notepad come with Windows for free and TextEdit comes with MacOS for free). It is recommended to use these when starting out because you have to
+        manually type out everything, and you will learn much better from your mistakes. Once you have learnt at least the basics of HTML, (Important tags, how the
+        language works, etc) you can switch to a more advanced text editor if you wish to, but it is not required. Below is a list of text editors which HTML can be
+        written in.
+      <ul>
+        <li>Notepad</li>
+        <li>TextEdit</li>
+        <li>Visual Studio Code</li>
+        <li>Sublime Text</li>
+        <li>Notepad++</li>
+        <li>Atom</li>
+        <li>CoffeeCup</li>
+        <li>DreamWeaver</li>
+      </ul>
+      You're probably also wondering which one my favourite is, and which one I recommend. As I said before, I recommend Notepad or TextEdit when you're starting out, but one you have developed your skills a bit, I would recommend switching to Visual Studio Code, which is my favourite one. However, if you prefer another text
+      editor, that's completely fine.
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="HTML_Headings">
+    <header id="main-headers">
+      <h2>HTML Headings</h2>
+    </header>
+    <article>
+      <p>
+        Headings in HTML are defined using numbers 1-6, with 1 being the largest leading and 2 being the smallest heading. Below is an example of what the headings all
+        look like.
+        <br>
+      <div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </div>
+      <br>
+      These headings are defined using &lt;h> tags. For example, if you wanted to create a heading that says "Example" in heading size 4, you would write the
+      following code:
+      <br>
+      <code>
+        &lt;h4>Example&lt;h4>
+      </code>
+      <br>
+      Writing the code above would result in the output below:
+      <br>
+      <h4>Example</h4>
+      <br>
+      Well done! Feel free to practice headings as much as you want.
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="HTML_Hyperlinks">
+    <header id="main-headers">
+      <h2>HTML Hyperlinks</h2>
+    </header>
+    <article>
+      <p>
+        You can hyperlink text in HTML, similar to Word or Google Docs. This is done by adding the anchor tag (&lt;a>) to the text you would like to hyperlink.
+        (Example below).
+        <br><br>
+        <code>
+          &lt;p>This is an example paragraph. I would like to link &lt;a href="https://www.freecodecamp.org/nd03">this&lt;/a> to my FCC profile.&lt;/p>
+        </code>
+        <br>
+        This code would result in the following output:
+        <br><br>
+        <code>
+          This is an example paragraph. I would like to link <a href="https://www.freecodecamp.org/nd03">this</a> to my FCC profile.
+        </code>
+        <br><br>
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="Basic_HTML_Examples">
+    <header id="main-headers">
+      <h2>Basic HTML Examples</h2>
+    </header>
+    <article>
+      <p>
+      <div class="examplea">
+        Below are a few basic examples of HTML.
+      </div>
+      Example 1:
+      <br><br>
+      <code>
+        &lt;!DOCTYPE html><br>
+        &lt;html lang="en-GB"><br>
+        &lt;header><br>
+        &lt;h1>This Is My Title&lt;/h1><br>
+        &lt;h3>This Is My Subtitle&lt;/h3><br>
+        &lt;/header><br>
+        &lt;p><br>
+        This is a paragraph. There is an ordered list in this paragraph.<br>
+        &lt;ol><br>
+        &lt;li>This is the first item in my ordered list.&lt;/li><br>
+        &lt;li>This is the second item in my ordered list.&lt;/li><br>
+        &lt;li>This is the third item in my ordered list.&lt;/li><br>
+        &lt;/ol><br>
+        This is the end of my paragraph and HTML page.<br>
+        &lt;/p><br>
+        &lt;/html>
+      </code>
+      <br><br>
+      Below is what the output of the HTML code above would look like.
+      <br><br>
+      <code>
+        <header>
+          <h1>This Is My Title</h1>
+          <h3>This Is My Subtitle</h3>
+        </header>
+        <p>
+          This is a paragraph. There is an ordered list in this paragraph.
+        <ol>
+          <li>This is the first item in my ordered list.</li>
+          <li>This is the second item in my ordered list.</li>
+          <li>This is the third item in my ordered list.</li>
+        </ol>
+        This is the end of my paragraph and HTML Page.
+        </p>
+      </code>
+      <br><br>
+      Example 2:
+      <pre>
+                    <code>
+&lt;!DOCTYPE html>
+&lt;html lang="en-GB">
+&lt;header>
+&lt;h2>This is an image of nd03's freeCodeCamp.org profile. Click the image to see his full profile!&lt;/h2>
+&lt;/header>
+&lt;a href="https://www.freecodecamp.org/nd03">
+&lt;img src="https://i.ibb.co/f2T4KmW/nd03-fcc.png" alt="nd03's FCC profile.">
+&lt;/a>
+&lt;p>
+Here is an unordered list of languages that nd03 is familiar with! (Valid as of 6/3/2022)
+&lt;ul>
+&lt;li>HTML&lt;/li>
+&lt;li>CSS&lt;/li>
+&lt;li>JavaScript&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;/ul>
+Here is an unordered list of languages that nd03 is planning on learning in the future! (Valid as of 6/3/2022)
+&lt;ul>
+&lt;li>C, C++ and C#&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;li>SQL&lt;/li>
+&lt;li>PHP&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;li>Kotlin&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/html>
+
+                    </code>
+                </pre>
+      Below is what the output of the HTML code above would look like.
+      <br><br>
+      <code>
+        <header>
+          <h2>This is an image of nd03's freeCodeCamp.org profile. Click the image to see his full profile!</h2>
+        </header>
+        <a href="https://www.freecodecamp.org/nd03">
+          <img src="https://i.ibb.co/f2T4KmW/nd03-fcc.png" alt="nd03's FCC profile.">
+        </a>
+        <p>
+          Here is an unordered list of languages that nd03 is (somewhat) familiar with! (Valid as of 6/3/2022)
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bash</li>
+          <li>Python</li>
+        </ul>
+        Here is an unordered list of languages that nd03 is planning on learning in the future! (Valid as of 6/3/2022)
+        <ul>
+          <li>C, C++ and C#</li>
+          <li>Java</li>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>Ruby</li>
+          <li>Go</li>
+          <li>Kotlin</li>
+        </ul>
+        </p>
+      </code>
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="Classes_And_IDs">
+    <header id="main-headers">
+      <h2>Classes and IDs</h2>
+    </header>
+    <article>
+      <p>
+        In HTML, you might want certain &lt;p> elements to look different from other elements. You can do this by using classes and IDs. But what are classes and
+        IDs? A class in HTML is used to change the way that any element looks. You can change the looks of &lt;p>, &lt;header>, &lt;ul> and any other element of your
+        choice. Applying a class to multiple different elements will make all of them look the way that you styled them.
+        <br>
+        An HTML ID is slightly different. An ID is used to make an element look different from how the element is supposed to look. For example, you can make the size,
+        colour and whatever else you want of a &lt;header> element, and then apply that ID to it. Doing this would make this specific &lt;header> look different from
+        the other &lt;header> elements.
+      </p>
+    </article>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="main-section" id="Further_Learning">
+    <header id="main-headers">
+      <h2>Further Learning</h2>
+    </header>
+    <article>
+      <p>
+        This guide only covers the basics of HTML. There is still a lot to learn about the language and there are many useful tags not covered in this guide. If you
+        wish to improve your skills and improve your HTML, I recommend doing <a href="https://www.freecodecamp.org/learn/responsive-web-design/">
+          the responsive web design course</a> on <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>. Once you have finished the course, you may wish to get
+        certified. You can do this by completing a number of challenges where you design web pages. If you need help during this, I recommend to research the problem
+        you have. You can use <a href="https://www.google.com">Google</a>, <a href="https://www.w3schools.com">W3Schools</a> and any other platform of your choice. You will also need to learn CSS, otherwise your website will not look very good. You can learn CSS via my <a href="https://codepen.io/nd003/full/PoOvmYK" target="_blank">CSS guide</a>.
+        <br>
+        Thank you for reading this guide. I hope that this guide improved your knowledge on HTML and programming in general.
+        <br>
+        <a href="" target="_blank">Project Source code</a>
+      </p>
+    </article>
+  </section>
+</main>
+
+</html>
